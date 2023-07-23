@@ -1,44 +1,47 @@
-#Requirements
+# Twitter-Backend
 
-//user should be able to post a tweet.
-  (TWEET )
-       --- content (250 characters MAX)
-        -- image upload
-        -- likes 
-        -- comment tweets 
-        -- hashtags(#)
-        user
+## Requirements 📊
 
-// like
-            like on tweet , like on comment tweet 
-         user
+- User should be able to create a post
 
-// Comment
-        content 
-        like
-        user
+  - [The post/tweet cannot be more than 280 chars]
+  - [Every post/tweet will be having support for image upload]
 
-// (User) 
-        
-        -- username 
-        -- noOfFollowers
-        -- email/password
-        -- List of tweets 
-        -- bio
+- Any post should be visible to all
 
-// (Hashtag)
-    -- word
-    -- List of tweets 
-    -- ranking
+  - Anyone can comment on a post / tweet
+  - Anyone can like on a post/tweet
 
+- We can comment on a comment
+- We can like a comment also
+- Retweeting
 
+- TWEET
 
-// other users should be able to like a tweet
+  - Content (250 characters MAX)
+  - Image upload
+  - Hashtags(#)
+  - Comment tweets
 
-// other users should be able to tweet to a tweet
+- User profile:
 
-// other users should be able to retweet
+  - Name
+  - Follower count
+  - Bio
+  - List of tweets
+  - Email/Password
 
-// user should be able to visit a profile and follow
+- User Auth
 
-// search by hashtags 
+- Hashtag:
+
+  - Word
+  - List of tweets
+  - ranking
+  - Search By Hashtag
+
+- Hashtag:
+
+  - Word
+  - List of tweets
+  - ranking
