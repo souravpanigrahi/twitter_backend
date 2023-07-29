@@ -30,7 +30,7 @@ class TweetService {
         tweets: [tweet.id],
       };
     });
-
+    
     await this.hashtagRepository.bulkCreate(newTags);
     alreadyStoredTags.forEach((tag) => {
       tag.tweet.push(tweet.id);
