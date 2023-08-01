@@ -4,9 +4,9 @@ const AWS = require("aws-sdk");
 
 // Configure AWS SDK with your credentials and region
 AWS.config.update({
-  region: "ap-south-1",
-  secretAccessKey: "AwFuGW1e6L1RMEhZ19I2LZwSVIkm2n7iEd3rotWX",
-  accessKeyId: "AKIAS4CG5P7NNQOWPNRD",
+  region: "",
+  secretAccessKey: "",
+  accessKeyId: "",
 });
 
 const s3 = new AWS.S3();
